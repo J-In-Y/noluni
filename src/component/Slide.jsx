@@ -13,7 +13,7 @@ const Slide = () => {
             <div className="inner slide_wrap">
                 <div className="slide">
                     <Swiper
-                        centerSlides={true}
+                        centeredSlides={true}
                         Loop={true}
                         slidesPerView={1.2}
                         spaceBetween={20}
@@ -23,7 +23,7 @@ const Slide = () => {
                             1024: {
                                 slidesPerView: 2,
                                 spaceBetween: 20,
-                                centerSlides:false,
+                                centeredSlides:false,
                             },
                         }}
                         modules={[Navigation, Pagination]}
@@ -40,5 +40,6 @@ const Slide = () => {
         </>
     )
 }
+
 
 export default Slide
